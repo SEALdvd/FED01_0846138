@@ -8,6 +8,7 @@ Drag & Drop uploader
 - Mogelijk om meerdere bestanden tegelijk te slepen
 
 ![Overzicht opagina](https://github.com/SEALdvd/FED01_0846138/blob/master/resources/voorbeeld_1.png "Overzicht pagina")
+
 (pagina om te droppen in het venster) + een pagina die hierop en gegevens uitleest van SQLlite van alle voorgaande uploads (data).
 
 Overig:
