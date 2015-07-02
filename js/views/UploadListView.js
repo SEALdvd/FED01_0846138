@@ -14,6 +14,7 @@ site.views.UploadListView = Backbone.View.extend({
       return this;
     },
 
+  // first step to add info in the box
   addBoxes: function() {
     new ConsoleMessage("Er is op een knop gedrukt.").showMessage();
     this.loadDebug = new FileTypeMessage("Ophalen gegevens van de gegevens.", this.model.file);

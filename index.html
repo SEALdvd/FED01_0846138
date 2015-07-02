@@ -7,14 +7,14 @@
     <body>
         <div id="buttonBox">
             <!-- buttons -->
-            <div id="PDFclickerBox"><a href="#" id="PDFclicker">PDF</a></div>
-            <div id="WORDclickerBox"><a href="#" id="WORDclicker">Word</a></div>
-            <div id="ALLclickerBox"><a href="#" id="ALLclicker">All</a></div>
+            <div id="PDFclickerBox"><a href="#" id="PDFclicker"><span class="white">PDF</span></a></div>
+            <div id="WORDclickerBox"><a href="#" id="WORDclicker"><span class="white">Word</span></a></div>
+            <div id="ALLclickerBox"><a href="#" id="ALLclicker"><span class="white">All</span></a></div>
         </div>
 
         <div id="box"></div>
         <script id='matchTemplate' type="text/template">
-            <%= sender %> - <%= time %> - <%= size %>
+            <%= sender %>: <%= file %> - <%= time %> - <%= size %>
         </script>
 
         <!-- Required libraries -->
