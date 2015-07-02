@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload overzicht</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="buttonBox">
+            <!-- buttons -->
+            <div id="PDFclickerBox"><a href="#" id="PDFclicker">PDF</a></div>
+            <div id="WORDclickerBox"><a href="#" id="WORDclicker">Word</a></div>
+            <div id="ALLclickerBox"><a href="#" id="ALLclicker">All</a></div>
+        </div>
+
+        <div id="box"></div>
+        <script id='matchTemplate' type="text/template">
+            <%= sender %> - <%= time %> - <%= size %>
+        </script>
+
+        <!-- Required libraries -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+        <!-- Initialize -->
+        <script type="text/javascript" src="js/init.js"></script>
+        <!-- debugObjects -->
+        <script type="text/javascript" src="js/debugObjects/ConsoleMessage.js"></script>
+        <script type="text/javascript" src="js/debugObjects/FileTypeMessage.js"></script>
+        <!-- Models and Collections -->
+        <script type="text/javascript" src="js/models/Upload.js"></script>
+        <script type="text/javascript" src="js/models/Settings.js"></script>
+        <script type="text/javascript" src="js/collections/Uploads.js"></script>
+        <!-- Views -->
+        <script type="text/javascript" src="js/views/ButtonPDFView.js"></script>
+        <script type="text/javascript" src="js/views/ButtonWORDView.js"></script>
+        <script type="text/javascript" src="js/views/ButtonALLView.js"></script>
+        <script type="text/javascript" src="js/views/UploadView.js"></script>
+        <script type="text/javascript" src="js/views/UploadListView.js"></script>
+        <!-- Main -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
